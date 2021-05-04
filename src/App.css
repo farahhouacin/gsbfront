@@ -23,6 +23,25 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.scroller{
+  overflow-x: scroll;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+.modal-80w {
+  max-width: 90vw;
+  max-height: 90vh;
+}
+.container {
+  margin-top: 155px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 
 .App-link {
   color: #61dafb;
